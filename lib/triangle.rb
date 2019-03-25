@@ -22,8 +22,8 @@ class Triangle
 
   end
 
-end
+  class TriangleError < StandardError
+    "Oooops! Something wrong. Don't worry, take a minute and relax. Think about your favorite dish. Fills good, right?! :)"
+  end
 
-class TriangleError < StandardError
-  "Oooops! Something wrong. Don't worry, take a minute and relax. Think about your favorite dish. Fills good, right?! :)"
 end
