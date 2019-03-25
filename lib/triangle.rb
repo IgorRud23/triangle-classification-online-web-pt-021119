@@ -8,7 +8,7 @@ def initialize(left, right, buttom)
 end
 
 def kind()
-  if (@left = @right) && (@right == @bottom)
+  if (@left == @right) && (@right == @bottom)
      :equilateral
 end
 end
