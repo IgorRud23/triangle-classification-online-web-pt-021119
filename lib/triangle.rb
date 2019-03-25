@@ -7,7 +7,7 @@ def initialize(left, right, buttom)
   @bottom = bottom
 end
 
-def kind
+def kind()
   if (@left = @right) && (@right == @bottom)
      :equilateral
 end
