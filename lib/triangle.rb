@@ -1,4 +1,5 @@
 class Triangle
+  
   def initialize(right,left,bottom)
     @right = right
     @left = left
