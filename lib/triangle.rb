@@ -9,7 +9,7 @@ end
 
 def kind
   if (left == right) && (right == bottom) && (bottom == left)
-    :equilateral
+    return :equilateral
 end
 end
 
