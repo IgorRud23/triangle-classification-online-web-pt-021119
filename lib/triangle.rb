@@ -9,7 +9,7 @@ end
 
 def kind
   if (@left = @right) && (@right == @bottom) && (@bottom == @left)
-    return :equilateral
+     :equilateral
 end
 end
 
