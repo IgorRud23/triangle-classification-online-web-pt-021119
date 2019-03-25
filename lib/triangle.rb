@@ -11,6 +11,7 @@ def kind
   if (left == right) && (right == buttom) && (buttom == left)
     :equilateral
 end
+end 
 
 
 class TriangleError < StandardError
