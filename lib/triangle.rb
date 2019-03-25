@@ -25,5 +25,5 @@ class Triangle
 end
 
 class TriangleError < StandardError
-  # triangle error code
+  "Oooops! Something wrong. Don't worry, take a minute and relax. Think about your favorite dish. Fills good, right?! :)"
 end
