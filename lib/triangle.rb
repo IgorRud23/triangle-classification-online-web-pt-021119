@@ -8,7 +8,7 @@ class Triangle
   def kind()
     if (@right <= 0) || (@left <= 0) || (@bottom <= 0)
       raise TriangleError
-    elsif (@right+@left <= @bottom) || (@right+@left <= @bottom) || (@right+@left <= @bottom)
+    elsif (@right+@left <= @bottom) || (@right+@bottom <= @left) || (@left+@bottom <= @right)
       raise TriangleError
     else
       if (@right == @left) && (@left == @bottom)
